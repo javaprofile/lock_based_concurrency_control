@@ -1,6 +1,6 @@
 # lock_based_concurrency_control
 **DESIGNING EFFECTIVE LOCK-BASED CONCURRENCY CONTROL IN DATABASE SYSTEMS**
-* Author: Vipul Reddy
+* Author: Vipul Kumar Bondugula
 * Published In : International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
 * Publication Date: 02-2021
 * E-ISSN: 2147-6799
@@ -47,7 +47,7 @@ Strengthened automatic lock recovery and deadlock prevention in distributed plat
 
 **Citation** \
 DESIGNING EFFECTIVE LOCK-BASED CONCURRENCY CONTROL IN DATABASE SYSTEMS
-* Vipul R 
+* Vipul Kumar Bondugula
 * International Journal of Intelligent Systems and Applications in Engineering 
 * E-ISSN 2147-6799 
 * License \
@@ -55,7 +55,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://ijisae.org/ \
 **Author Contact** \
-**LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
+**LinkedIn**: https://www.linkedin.com/in/vipul-b-18468a19/ | **Email**: vipulreddy574@gmail.com
 
 
 
