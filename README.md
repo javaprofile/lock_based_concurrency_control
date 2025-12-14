@@ -8,32 +8,32 @@
 * Link:
 
 **Abstract:**\
-This paper addresses performance degradation in distributed database systems caused by high transaction conflict rates. It examines how concurrent access to shared data under Snapshot Isolation leads to write-write conflicts, increased transaction aborts, and reduced throughput. The study emphasizes the role of Multi-Version Concurrency Control in managing consistency while enabling concurrent transaction execution across distributed nodes. By maintaining multiple data versions and isolating transactions effectively, this approach reduces conflicts and improves system performance. The paper highlights the need for efficient, conflict-aware concurrency control mechanisms in large-scale distributed database environments.
+This paper addresses throughput degradation in distributed database systems caused by inefficiencies in lease-based locking mechanisms. It examines how time-bound locks, while essential for fault tolerance and deadlock prevention, can lead to increased contention and reduced performance under high concurrency. The study emphasizes the role of fundamental locking strategies, including shared and exclusive locks, pessimistic and optimistic locking, and two-phase locking, in ensuring data consistency across distributed environments such as Kubernetes and etcd. By analyzing lease duration and lock acquisition behavior, the proposed approach improves lock utilization and reduces unnecessary blocking. The paper highlights the need for efficient, lightweight lease-based locking mechanisms to enhance throughput and reliability in large-scale distributed systems.
 
 **Key Contributions:**
-* **Conflict Rate Reduction:**\
-Developed a conflict management approach using Multi-Version Concurrency Control to reduce transaction interference in distributed database systems.
+* **Lease-Based Locking Optimization:**\
+Analyzed throughput limitations in lease-based locking mechanisms used in distributed database systems under high concurrency.
 
 * **Concurrency Control Enhancement:**\
-Analyzed limitations of Snapshot Isolation and addressed write-write conflicts and write skew anomalies in high-concurrency environments.
+Studied shared, exclusive, pessimistic, optimistic, and two-phase locking models to understand their impact on data consistency and lock contention.
   
 * **Performance Evaluation:** \
-  Assessed the impact of conflict rates on transaction aborts, throughput, and latency under write-intensive workloads.
+  Evaluated the effect of lease duration, lock contention, and expiration behavior on throughput and transaction latency in distributed environments.
   
 * **Research Leadership:**\
-  Led the study and implementation focusing on improving consistency and performance in distributed databases through advanced concurrency control techniques.
+  Led the study and implementation focusing on improving throughput and reliability of distributed systems using optimized lease-based locking mechanisms.
 
 **Relevance & Real-World Impact**
-* **Conflict Rate Reduction:**\
-Improved transaction throughput in distributed database systems by reducing write-write conflicts and transaction aborts using Multi-Version Concurrency Control.
+* **Improved Throughput in Distributed Systems:**\
+Enhanced system performance by reducing lock contention and blocking caused by inefficient lease-based locking under concurrent workloads.
 
-* **Enhanced Concurrency Management:**\
-Enabled safe and efficient concurrent transaction execution across distributed nodes by addressing consistency challenges inherent in Snapshot Isolation.
+* **Reliable Fault-Tolerant Locking:**\
+Strengthened automatic lock recovery and deadlock prevention in distributed platforms such as Kubernetes and etcd through effective lease management.
 
 * **System Performance Improvement :** \
-    Lowered latency and retry overhead in high-traffic, write-intensive workloads through effective conflict detection and resolution mechanisms.
+    Reduced resource contention and improved transaction progress in high-traffic environments by refining lease-based lock acquisition and release behavior.
 * **Academic & Research Impact:** \
-    Findings support ongoing research and educational efforts in distributed databases, concurrency control, and scalable data management systems.
+    Supports ongoing research and educational initiatives in distributed databases, locking protocols, and concurrency control for scalable systems.
 
 **Experimental Results (Summary)**:
 
