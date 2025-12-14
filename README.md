@@ -37,23 +37,23 @@ Strengthened automatic lock recovery and deadlock prevention in distributed plat
 
 **Experimental Results (Summary)**:
 
-  | Nodes | SI Conflict Rate (%)    | MVCC Conflict Rate(%)      | Reduction (%)   |
-  |-------|-------------------------| ---------------------------| ----------------|
-  | 3     |  5                      |  3                         | 40.00           |
-  | 5     |  9                      |  6                         | 33.33           |
-  | 7     | 14                      | 10                         | 28.57           |
-  | 9     | 20                      | 15                         | 25.00           |
-  | 11    | 27                      | 21                         | 22.22           |
+  | Nodes | Lease Based (locks/sec) | Basic Lease Based (locks/sec) | Gain (%)   |
+  |-------|-------------------------| ------------------------------| ----------------|
+  | 3     |  92                     | 105                           | 14.13           |
+  | 5     |  88                     |  98                           | 11.36           |
+  | 7     |  83                     |  93                           | 12.05           |
+  | 9     |  78                     |  88                           | 12.82           |
+  | 11    |  73                     |  82                           | 12.33           |
 
 **Citation** \
-MANAGING CONFLICT RATE REDUCTION IN SCALABLE DISTRIBUTED DATABASE SYSTEMS
+DESIGNING EFFECTIVE LOCK-BASED CONCURRENCY CONTROL IN DATABASE SYSTEMS
 * Vipul R 
-* International Journal of Innovative Research and Creative Technology 
-* E-ISSN-2454-5988 
+* International Journal of Intelligent Systems and Applications in Engineering 
+* E-ISSN 2147-6799 
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijirct.org/ \
+https://ijisae.org/ \
 **Author Contact** \
 **LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
 
