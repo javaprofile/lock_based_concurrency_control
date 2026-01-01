@@ -1,5 +1,5 @@
 # Lock-Based Concurrency Control
-## **Designing Effective Lock-Based Concurrency Control in Database Systems**
+**Designing Effective Lock-Based Concurrency Control in Database Systems**
 * __Author(s)__: Vipul Kumar Bondugula
 * __Published In__ : International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
 * __Publication Date__: Feb 2021
