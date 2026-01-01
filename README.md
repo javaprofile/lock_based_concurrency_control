@@ -9,7 +9,7 @@
 - **DOI** : 
 - **Impact Factor** : 
 
-**Abstract**\
+**_Abstract_**
 This paper addresses throughput degradation in distributed database systems caused by inefficiencies in lease-based locking mechanisms. It examines how time-bound locks, while essential for fault tolerance and deadlock prevention, can lead to increased contention and reduced performance under high concurrency. The study emphasizes the role of fundamental locking strategies, including shared and exclusive locks, pessimistic and optimistic locking, and two-phase locking, in ensuring data consistency across distributed environments such as Kubernetes and etcd. By analyzing lease duration and lock acquisition behavior, the proposed approach improves lock utilization and reduces unnecessary blocking. The paper highlights the need for efficient, lightweight lease-based locking mechanisms to enhance throughput and reliability in large-scale distributed systems.
 
 ## Key Contributions
