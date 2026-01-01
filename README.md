@@ -9,10 +9,10 @@
 - **DOI** : 
 - **Impact Factor** : 
 
-# Abstract
+## Abstract
 This paper addresses throughput degradation in distributed database systems caused by inefficiencies in lease-based locking mechanisms. It examines how time-bound locks, while essential for fault tolerance and deadlock prevention, can lead to increased contention and reduced performance under high concurrency. The study emphasizes the role of fundamental locking strategies, including shared and exclusive locks, pessimistic and optimistic locking, and two-phase locking, in ensuring data consistency across distributed environments such as Kubernetes and etcd. By analyzing lease duration and lock acquisition behavior, the proposed approach improves lock utilization and reduces unnecessary blocking. The paper highlights the need for efficient, lightweight lease-based locking mechanisms to enhance throughput and reliability in large-scale distributed systems.
 
-# Key Contributions
+## Key Contributions
 - **Lease-Based Locking Optimization:**
   Analyzed throughput limitations in lease-based locking mechanisms used in distributed database systems under high concurrency.
 
@@ -25,7 +25,7 @@ This paper addresses throughput degradation in distributed database systems caus
 - **Research Leadership:**
   Led the study and implementation focusing on improving throughput and reliability of distributed systems using optimized lease-based locking mechanisms.
 
-#  Relevance & Real-World Impact
+## Relevance & Real-World Impact
 - **Improved Throughput in Distributed Systems:**
   Enhanced system performance by reducing lock contention and blocking caused by inefficient lease-based locking under concurrent workloads.
 
@@ -38,7 +38,7 @@ This paper addresses throughput degradation in distributed database systems caus
 - **Academic & Research Impact:**
     Supports ongoing research and educational initiatives in distributed databases, locking protocols, and concurrency control for scalable systems.
 
-# Experimental Results (Summary)
+## Experimental Results (Summary)
 
   | Nodes | Lease Based (locks/sec) | Basic Lease Based (locks/sec) | Gain (%)   |
   |-------|-------------------------| ------------------------------| ----------------|
@@ -48,7 +48,7 @@ This paper addresses throughput degradation in distributed database systems caus
   | 9     |  78                     |  88                           | 12.82           |
   | 11    |  73                     |  82                           | 12.33           |
 
-# Citation
+## Citation
 DESIGNING EFFECTIVE LOCK-BASED CONCURRENCY CONTROL IN DATABASE SYSTEMS
 * Vipul Kumar Bondugula
 * International Journal of Intelligent Systems and Applications in Engineering 
