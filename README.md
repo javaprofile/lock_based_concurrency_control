@@ -2,12 +2,12 @@
 **Designing Effective Lock-Based Concurrency Control in Database Systems**
 
 ### Paper Information
-- **Author(s)**: Vipul Kumar Bondugula
-- **Published In** : International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
-- **Publication Date** : Feb 2021
-- **ISSN** : E-ISSN 2147-6799
-- **DOI** : 
-- **Impact Factor** : 
+- **Author(s):** Vipul Kumar Bondugula
+- **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
+- **Publication Date:** Feb 2021
+- **ISSN:** E-ISSN 2147-6799
+- **DOI:** 
+- **Impact Factor:** 
 
 ### Abstract
 This paper addresses throughput degradation in distributed database systems caused by inefficiencies in lease-based locking mechanisms. It examines how time-bound locks, while essential for fault tolerance and deadlock prevention, can lead to increased contention and reduced performance under high concurrency. The study emphasizes the role of fundamental locking strategies, including shared and exclusive locks, pessimistic and optimistic locking, and two-phase locking, in ensuring data consistency across distributed environments such as Kubernetes and etcd. By analyzing lease duration and lock acquisition behavior, the proposed approach improves lock utilization and reduces unnecessary blocking. The paper highlights the need for efficient, lightweight lease-based locking mechanisms to enhance throughput and reliability in large-scale distributed systems.
@@ -36,7 +36,7 @@ This paper addresses throughput degradation in distributed database systems caus
   Reduced resource contention and improved transaction progress in high-traffic environments by refining lease-based lock acquisition and release behavior.
   
 - **Academic & Research Impact:**
-    Supports ongoing research and educational initiatives in distributed databases, locking protocols, and concurrency control for scalable systems.
+  Supports ongoing research and educational initiatives in distributed databases, locking protocols, and concurrency control for scalable systems.
 
 ### Experimental Results (Summary)
 
